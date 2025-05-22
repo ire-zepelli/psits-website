@@ -28,7 +28,7 @@ const Header = () => {
           <button className={styles["burger-button"]}>
             <img
               className={styles.icon}
-              src="/src/assets/burger_btn.svg"
+              src="/burger_btn.svg"
               alt="burger_icon"
             />
           </button>

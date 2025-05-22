@@ -12,10 +12,10 @@ const Footer = () => {
               href="https://www.facebook.com/uclmpsitsofficial"
               target="_blank"
             >
-              <img src="./src/assets/facebook-icon.png" alt="fb" />
+              <img src="/facebook-icon.png" alt="fb" />
             </a>
             <a href="https://www.gmail.com" target="_blank">
-              <img src="./src/assets/gmail-icon.png" alt="gmail" />
+              <img src="/gmail-icon.png" alt="gmail" />
             </a>
           </div>
         </div>
