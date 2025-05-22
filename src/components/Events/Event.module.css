@@ -1,0 +1,11 @@
+.card {
+  background-color: black;
+  width: 1248px;
+  height: 140px;
+  border-radius: 100px;
+}
+
+h1 {
+  text-align: start;
+  padding-left: 80px;
+}

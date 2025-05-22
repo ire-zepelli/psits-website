@@ -1,0 +1,27 @@
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h4 {
+  width: 1000px;
+  text-align: start;
+  margin: 0;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero h1 span {
+  color: #c89900;
+}
+
+.featured {
+  width: 1000px;
+  height: 500px;
+  background-color: #fff;
+}
