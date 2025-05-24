@@ -1,15 +1,16 @@
 .header {
+  font-family: "Manrope";
+  position: fixed;
   margin: 0;
   padding: 10px 20px;
+  width: 97vw;
+  background-color: #412039;
 }
 
 .burger-button {
   background-color: transparent;
   width: 70px;
   padding: 10px;
-}
-
-.nav-title {
 }
 
 .burger-nav {

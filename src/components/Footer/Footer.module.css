@@ -3,6 +3,7 @@
   justify-content: space-between;
   margin: 100px;
   padding-left: 100px;
+  font-family: "Manrope";
 }
 
 .section-a {
@@ -16,6 +17,7 @@
   padding: 0;
   margin: 0;
   text-align: left;
+  font-family: "Pixelify Sans";
 }
 
 .section-a p {

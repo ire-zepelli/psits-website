@@ -1,3 +1,8 @@
+@import "@fontsource/kumar-one";
+@import "@fontsource/lexend";
+@import "@fontsource/manrope";
+@import "@fontsource/pixelify-sans";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
