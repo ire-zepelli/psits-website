@@ -5,9 +5,28 @@
 
 .burger-button {
   background-color: transparent;
+  width: 70px;
+  padding: 10px;
 }
 
 .nav-title {
+}
+
+.burger-nav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  background-color: #1f0d1d;
+}
+
+.burger-nav button {
+  align-self: flex-end;
 }
 
 .left-nav {

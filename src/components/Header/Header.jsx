@@ -1,6 +1,13 @@
 import styles from "./Header.module.css";
+import { useState } from "react";
 
 const Header = () => {
+  const [showNav, setShowNav] = useState(false);
+
+  function handleClick() {
+    setShowNav(!showNav);
+  }
+
   return (
     <header className={styles.header}>
       <nav className={styles["header-nav"]}>
@@ -25,13 +32,28 @@ const Header = () => {
           <h3 className={styles["nav-title"]}>UCLM - PSITS / Dashboard</h3>
         </div>
         <div className={styles["right-nav"]}>
-          <button className={styles["burger-button"]}>
-            <img
-              className={styles.icon}
-              src="/burger_btn.svg"
-              alt="burger_icon"
-            />
-          </button>
+          {showNav ? (
+            <div className={styles["burger-nav"]}>
+              <button className={styles["burger-button"]} onClick={handleClick}>
+                <img
+                  className={styles.icon}
+                  src="/burger_btn.svg"
+                  alt="burger_icon"
+                />
+              </button>
+              <h3>About Us</h3>
+              <h3>Events</h3>
+              <h3>Dashboard</h3>
+            </div>
+          ) : (
+            <button className={styles["burger-button"]} onClick={handleClick}>
+              <img
+                className={styles.icon}
+                src="/burger_btn.svg"
+                alt="burger_icon"
+              />
+            </button>
+          )}
         </div>
       </nav>
     </header>

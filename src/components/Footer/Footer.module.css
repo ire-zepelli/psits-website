@@ -38,3 +38,7 @@ span {
   color: #c89900;
   text-align: left;
 }
+
+span p {
+  margin: 0;
+}
