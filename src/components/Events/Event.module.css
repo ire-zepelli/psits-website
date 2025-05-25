@@ -1,11 +1,28 @@
 .card {
-  background-color: black;
   width: 1248px;
   height: 140px;
   border-radius: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-h1 {
+.card:hover {
+  cursor: pointer;
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.card h1 {
+  position: absolute;
+  margin: 0;
+  z-index: 1;
   text-align: start;
   padding-left: 80px;
+}
+
+.card img {
+  position: relative;
 }
