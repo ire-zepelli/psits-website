@@ -9,6 +9,15 @@ const Header = () => {
     setShowNav(!showNav);
   }
 
+  function toPascal(s) {
+    s = s.replace("/", "");
+    var first_letter = s.charAt(0);
+    s = s.replace(first_letter, first_letter.toUpperCase());
+    return s;
+  }
+
+  const curr_path = window.location.pathname;
+
   return (
     <header className={styles.header}>
       <nav className={styles["header-nav"]}>
@@ -30,7 +39,10 @@ const Header = () => {
               alt="CCS logo"
             />
           </a>
-          <h3 className={styles["nav-title"]}>UCLM - PSITS / Dashboard</h3>
+          <h3 className={styles["nav-title"]}>
+            UCLM - PSITS /{" "}
+            {curr_path == "/" ? <>Dashboard</> : <>{toPascal(curr_path)}</>}
+          </h3>
         </div>
         <div className={styles["right-nav"]}>
           {showNav ? (
