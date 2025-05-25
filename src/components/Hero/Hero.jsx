@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.featured}>
-        <img src="/public/sample-event-1.png" alt="" />
+        <img src="/sample-event-1.png" alt="" />
       </div>
       <h4>HEADLINES</h4>
       <h1>
