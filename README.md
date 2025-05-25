@@ -1,12 +1,31 @@
-# React + Vite
+# PSITS UCLM Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the official website of the **Philippine Society of Information Technology Students - University of Cebu Lapu-Lapu and Mandaue (PSITS UCLM)**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- News and announcements  
+- Events and registration   
+- About Page 
+- Contact page
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React
+- Backend: Node.js
+- Database: Postgres
+
+## Setup
+
+1. Clone the repo  
+   `git clone https://github.com/ire-zepelli/psits-website.git`
+
+2. Install dependencies (if needed)  
+   `npm install`
+
+3. Run the project  
+   `npm run dev`
+
+---
+
+Made with ❤️ by PSITS UCLM Dev Team.
