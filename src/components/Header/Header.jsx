@@ -1,3 +1,4 @@
+import { Link, Links } from "react-router-dom";
 import styles from "./Header.module.css";
 import { useState } from "react";
 
@@ -41,9 +42,15 @@ const Header = () => {
                   alt="burger_icon"
                 />
               </button>
-              <h3>About Us</h3>
-              <h3>Events</h3>
-              <h3>Dashboard</h3>
+              <Link to={"/about"} className={styles.link}>
+                <h3>About Us</h3>
+              </Link>
+              <Link to={"/events"} className={styles.link}>
+                <h3>Events</h3>
+              </Link>
+              <Link to={"/"} className={styles.link}>
+                <h3>Dashboard</h3>
+              </Link>
             </div>
           ) : (
             <button className={styles["burger-button"]} onClick={handleClick}>

@@ -1,10 +1,21 @@
 .header {
   font-family: "Manrope";
   position: fixed;
+  top: 0;
+  left: 0;
   margin: 0;
   padding: 10px 20px;
   width: 97vw;
   background-color: #412039;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover {
+  color: #c89900;
 }
 
 .burger-button {
