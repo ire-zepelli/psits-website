@@ -6,7 +6,14 @@
   flex-direction: column;
 }
 
+.headline-text {
+  padding-top: 100px;
+  position: absolute;
+}
+
 .hero h4 {
+  font-size: 20px;
+  padding: 10px 0;
   font-family: "Lexend";
   width: 1000px;
   text-align: start;
@@ -14,6 +21,7 @@
 }
 
 .hero h1 {
+  font-size: 65px;
   font-family: "Kumar One";
   margin: 10px 0 0 0;
   padding: 0;
@@ -23,9 +31,18 @@
   color: #c89900;
 }
 
+.gradient {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(180deg, rgba(31, 13, 29, 0) 30%, #1f0d1d 70%),
+    url("/sample-event-1.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .featured {
-  width: 1000px;
-  height: 500px;
+  position: relative;
+  height: 700px;
   background-color: #fff;
   overflow: hidden;
 }

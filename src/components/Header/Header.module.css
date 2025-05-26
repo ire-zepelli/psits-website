@@ -7,7 +7,6 @@
   margin: 0;
   padding: 10px 20px;
   width: 97vw;
-  background-color: #412039;
 }
 
 .link {
@@ -36,6 +35,8 @@
   padding: 20px;
   width: 300px;
   background-color: #1f0d1d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
 }
 
 .burger-nav button {
@@ -44,6 +45,8 @@
 
 .left-nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 
@@ -64,4 +67,9 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.nav-title {
+  font-size: 25px;
+  margin: 0;
 }

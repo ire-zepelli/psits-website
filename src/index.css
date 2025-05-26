@@ -10,7 +10,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #412039;
+  background-color: #1f0d1d;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,7 +30,6 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  padding-top: 93.6px;
 }
 
 h1 {
