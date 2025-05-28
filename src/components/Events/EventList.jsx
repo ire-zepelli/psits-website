@@ -5,8 +5,8 @@ const EventList = () => {
   return (
     <div className={styles["event-list"]}>
       <h2>EVENTS: April</h2>
-      <Event></Event>
-      <Event></Event>
+      <Event img="/event-banner-1.png"></Event>
+      <Event img="/event-banner-2.png"></Event>
     </div>
   );
 };

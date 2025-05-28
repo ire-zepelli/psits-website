@@ -1,19 +1,22 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   margin: 100px;
   padding-left: 100px;
   font-family: "Manrope";
+  flex-wrap: wrap;
 }
 
 .section-a {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
   flex-direction: column;
 }
 
-.section-a h1 {
+.footer h1 {
+  width: 100%;
+  font-size: 80px;
   padding: 0;
   margin: 0;
   text-align: left;
@@ -22,7 +25,8 @@
 
 .section-a p {
   margin: 0;
-  padding-bottom: 30 px;
+  padding-bottom: 30px;
+  color: rgba(255, 255, 255, 0.47);
 }
 
 hr {
@@ -43,4 +47,12 @@ span {
 
 span p {
   margin: 0;
+}
+
+.section-b :nth-child(1) {
+  margin-top: 0;
+}
+
+.section-b {
+  margin-left: 250px;
 }

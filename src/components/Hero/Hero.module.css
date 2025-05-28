@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .headline-text {
@@ -34,7 +35,7 @@
 .gradient {
   width: inherit;
   height: inherit;
-  background: linear-gradient(180deg, rgba(31, 13, 29, 0) 30%, #1f0d1d 70%),
+  background: linear-gradient(180deg, rgba(31, 13, 29, 0) 25%, #1f0d1d 75%),
     url("/sample-event-1.png");
   background-size: cover;
   background-position: center;

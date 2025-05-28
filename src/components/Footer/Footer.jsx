@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <>
       <footer className={styles.footer}>
+        <h1>PSITS</h1>
         <div className={styles["section-a"]}>
-          <h1>PSITS</h1>
           <p>We are absolutely batshit insane if you mess with us</p>
           <div className={styles.links}>
             <a
