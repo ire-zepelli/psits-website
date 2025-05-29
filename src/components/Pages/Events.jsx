@@ -54,19 +54,16 @@ const Events = () => {
         <table className={styles["events-table"]}>
           <thead>
             <tr>
+              <th>Banner</th>
               <th>Event</th>
               <th>Date</th>
               <th>Location</th>
-              <th>Banner</th>
               <th>Actions</th>
             </tr>
           </thead>
           <tbody>
             {events.map((evt, index) => (
               <tr key={index}>
-                <td>{evt.event}</td>
-                <td>{evt.date}</td>
-                <td>{evt.location}</td>
                 <td>
                   {evt.banner ? (
                     <img
@@ -79,6 +76,9 @@ const Events = () => {
                     "No Banner"
                   )}
                 </td>
+                <td>{evt.event}</td>
+                <td>{evt.date}</td>
+                <td>{evt.location}</td>
                 <td>
                   <button onClick={() => handleRemove(index)}>Remove</button>
                 </td>
