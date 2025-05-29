@@ -1,0 +1,25 @@
+form {
+  margin-top: 100px;
+  color: black;
+}
+
+.card {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.events-table {
+  border: 1px solid;
+}
+
+.events-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
